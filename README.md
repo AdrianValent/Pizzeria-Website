@@ -9,4 +9,4 @@ This website also contains a little bit of JavaScript, which serves its purpose 
 
 I wanted to make my approach to creating this website as professional as I could at the beginning of my journey and not risk any legal issues with copyright. Therefore, all the images used on this website are royalty-free and free for use under the [Pixabay Content License](https://pixabay.com/service/license-summary/)
 
-## View the website here: [Live Site]()
+## View the website here: [Live Site](https://adrianvalent.github.io/Pizzeria-Website/)
