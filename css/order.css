@@ -1,0 +1,114 @@
+header {
+    background-image: linear-gradient(#00000044, #000), url(../images/pizza3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header #center-align-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #center-align-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: rgba(0,0,0,0.8);
+    height: 55vh;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+main p {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 2vh;
+}
+
+main p span {
+    color: #ea7515;
+    font-weight: bold;
+}
+
+main .order-form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    background-color: #000;
+    border: solid 3px #ea7515;
+    border-radius: 25px;
+    width: 400px;
+    height: 350px;
+}
+
+main .order-form form {
+    margin-top: 40px;
+}
+
+main .order-form form input {
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    outline: none;
+    border: solid 3px #ea7515;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+main form .submit-input {
+    margin: 0 auto;
+    color: #ea7515;
+    cursor: pointer;
+}
+
+main .order-form p {
+    color: #ea7515;
+    margin-top: -20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+
+    main .order-form {
+        width: 300px;
+        height: 350px;
+    }
+
+}
+
+@media only screen and (max-height: 840px) {
+
+    main {
+        height: 60vh;
+    }
+
+}
+
+@media only screen and (max-height: 740px) {
+
+    main {
+        height: 70vh;
+    }
+
+}
+
+@media only screen and (max-height: 640px) {
+
+    main {
+        height: 80vh;
+    }
+
+}
